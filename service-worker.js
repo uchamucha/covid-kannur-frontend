@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covid-kannur-frontend/precache-manifest.d84d9179dd324768dabb98a051d68675.js"
+  "/covid-kannur-frontend/precache-manifest.66b1610c43c88a5f82666284ddce5137.js"
 );
 
 self.addEventListener('message', (event) => {
