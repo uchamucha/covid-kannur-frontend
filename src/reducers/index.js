@@ -58,25 +58,21 @@ const detailsReducer = (state = {}, action) => {
             label: "conf",
             data: confirmedData,
             borderColor: "yellow",
-            pointRadius: 0,
           },
           {
             label: "rec",
             data: recoveredData,
             borderColor: "green",
-            pointRadius: 0,
           },
           {
             label: "dec",
             data: deceasedData,
             borderColor: "blue",
-            pointRadius: 0,
           },
           {
             label: "act",
             data: activeData,
             borderColor: "red",
-            pointRadius: 0,
           },
         ],
       };
