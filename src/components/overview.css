@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.title {
+  font-family: "Raleway", sans-serif;
+  color: #f3f3f3;
+  text-align: center;
+  height: 50px;
+  padding-top: 20px;
+}
+
+.title span {
+  color: #42a5f5;
+}
+
+.overview-top {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 120px 120px;
+
+  /*positioning grid*/
+  justify-content: center;
+  align-content: center;
+
+  /* positioning items inside each cell */
+  justify-items: center;
+  align-items: center;
+
+  /* column-gap: 20px; */
+
+  height: 300px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.overview-top div {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #f3f3f3;
+}
+
+.overview-top .active {
+  /* make it occupy the entire grid cell and center text */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(252, 111, 111, 0.2);
+  border-bottom: 1px solid rgba(252, 111, 111, 0.2);
+}
+.overview-top .confirmed {
+  /* make it occupy the entire grid cell and center text */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: 1px solid rgba(252, 111, 111, 0.2);
+}
+.overview-top .deceased {
+  /* make it occupy the entire grid cell and center text */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(252, 111, 111, 0.2);
+}
+.overview-top .recovered {
+  /* make it occupy the entire grid cell and center text */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bad-delta {
+  color: #fc0000;
+}
+
+.good-delta {
+  color: #00ff91;
+}
+
+@media screen and (min-width: 768px) {
+  .overview-top {
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    grid-template-rows: 140px;
+
+    /*positioning grid*/
+    justify-content: center;
+    align-content: center;
+
+    /* positioning items inside each cell */
+    justify-items: center;
+    align-items: center;
+
+    /* column-gap: 20px; */
+
+    height: 200px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .overview-top .active,
+  .overview-top .confirmed,
+  .overview-top .deceased,
+  .overview-top .recovered {
+    height: 75%;
+  }
+
+  .overview-top .active {
+    border-bottom: none;
+  }
+
+  .overview-top .confirmed {
+    border-bottom: none;
+    border-right: 1px solid rgba(252, 111, 111, 0.2);
+  }
+}

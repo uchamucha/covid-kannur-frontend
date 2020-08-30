@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.graph-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.graph-title {
+  font-family: "Raleway", sans-serif;
+  color: #f3f3f3;
+  text-align: center;
+  height: 70px;
+  padding-top: 40px;
+}
+
+.graph {
+  position: relative;
+  padding-top: 10px;
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+}
