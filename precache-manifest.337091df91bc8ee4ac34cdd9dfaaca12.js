@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1e23b540875fcd8c5e34e88be53640c",
+    "revision": "3568394879b7109c5a497171ab48559a",
     "url": "/covid-kannur-frontend/index.html"
   },
   {
-    "revision": "3b533a7c602c894d7356",
+    "revision": "12256b688616643deb7d",
     "url": "/covid-kannur-frontend/static/css/main.d654dcae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-kannur-frontend/static/js/2.3585ea91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b533a7c602c894d7356",
-    "url": "/covid-kannur-frontend/static/js/main.12713d61.chunk.js"
+    "revision": "12256b688616643deb7d",
+    "url": "/covid-kannur-frontend/static/js/main.651d26be.chunk.js"
   },
   {
     "revision": "7d4c5e25785e99dd3ce7",
