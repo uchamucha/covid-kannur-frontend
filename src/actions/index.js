@@ -4,7 +4,7 @@ import axios from "axios";
 export const getHotspots = () => {
   return async (dispatch) => {
     let response = await axios.get(
-      "http://covid-kannur.herokuapp.com/API/hotspots"
+      "https://covid-kannur.herokuapp.com/API/hotspots"
     );
 
     dispatch({ type: "HOTSPOTS_DATA", payload: response.data });
@@ -15,7 +15,7 @@ export const getHotspots = () => {
 export const getContZones = () => {
   return async (dispatch) => {
     let response = await axios.get(
-      "http://covid-kannur.herokuapp.com/API/lsglist"
+      "https://covid-kannur.herokuapp.com/API/lsglist"
     );
 
     dispatch({ type: "CONTAINMENT_ZONES", payload: response.data });
@@ -26,7 +26,7 @@ export const getContZones = () => {
 export const getOverview = () => {
   return async (dispatch) => {
     let response = await axios.get(
-      "http://covid-kannur.herokuapp.com/API/overview"
+      "https://covid-kannur.herokuapp.com/API/overview"
     );
 
     dispatch({ type: "OVERVIEW", payload: response.data });
@@ -38,7 +38,7 @@ export const getOverview = () => {
 export const getDetails = () => {
   return async (dispatch) => {
     let response = await axios.get(
-      "http://covid-kannur.herokuapp.com/API/details"
+      "https://covid-kannur.herokuapp.com/API/details"
     );
 
     dispatch({ type: "DETAILS", payload: response.data });
