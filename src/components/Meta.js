@@ -24,7 +24,7 @@ const Meta = () => {
             <a target="blank" href="https://github.com/c19k">
               C19K repo:{" "}
             </a>
-            built and maintained be the amazing volunteers at{" "}
+            built and maintained by the amazing volunteers at{" "}
             <a target="blank" href="https://team.covid19kerala.info/">
               CODDK
             </a>{" "}
