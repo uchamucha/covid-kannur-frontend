@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/covid-kannur-frontend/static/css/main.d654dcae.chunk.css",
-    "main.js": "/covid-kannur-frontend/static/js/main.651d26be.chunk.js",
-    "main.js.map": "/covid-kannur-frontend/static/js/main.651d26be.chunk.js.map",
+    "main.js": "/covid-kannur-frontend/static/js/main.12af3cb7.chunk.js",
+    "main.js.map": "/covid-kannur-frontend/static/js/main.12af3cb7.chunk.js.map",
     "runtime-main.js": "/covid-kannur-frontend/static/js/runtime-main.a76070c9.js",
     "runtime-main.js.map": "/covid-kannur-frontend/static/js/runtime-main.a76070c9.js.map",
     "static/js/2.3585ea91.chunk.js": "/covid-kannur-frontend/static/js/2.3585ea91.chunk.js",
     "static/js/2.3585ea91.chunk.js.map": "/covid-kannur-frontend/static/js/2.3585ea91.chunk.js.map",
     "index.html": "/covid-kannur-frontend/index.html",
-    "precache-manifest.ab507b707295c92cdcf0c795c738e556.js": "/covid-kannur-frontend/precache-manifest.ab507b707295c92cdcf0c795c738e556.js",
+    "precache-manifest.d84d9179dd324768dabb98a051d68675.js": "/covid-kannur-frontend/precache-manifest.d84d9179dd324768dabb98a051d68675.js",
     "service-worker.js": "/covid-kannur-frontend/service-worker.js",
     "static/css/main.d654dcae.chunk.css.map": "/covid-kannur-frontend/static/css/main.d654dcae.chunk.css.map",
     "static/js/2.3585ea91.chunk.js.LICENSE.txt": "/covid-kannur-frontend/static/js/2.3585ea91.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a76070c9.js",
     "static/js/2.3585ea91.chunk.js",
     "static/css/main.d654dcae.chunk.css",
-    "static/js/main.651d26be.chunk.js"
+    "static/js/main.12af3cb7.chunk.js"
   ]
 }
